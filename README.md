@@ -28,7 +28,7 @@ A Python console application that simulates a silent auction. Multiple users can
 - Dictionary subscripting to access values using keys
 - Finding the highest value in a dictionary
 - Using loops to collect multiple user inputs
-- Conditional statements (if, else)
+- Conditional statements (`if`, `else`)
 - Importing code from another file
 - Console-based user interaction
 - Using ASCII art 
