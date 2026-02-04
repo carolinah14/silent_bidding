@@ -1,54 +1,34 @@
-# Silent Auction – Python (Day 9)
+Silent Auction (Python)
 
-This project is a **console-based Silent Auction application** built in Python as part of my *100 Days of Code – Python Bootcamp* (Day 9).
+A Python console application that simulates a silent auction. Multiple users can place bids anonymously, and the program determines the highest bidder at the end. This project demonstrates core Python concepts such as functions, dictionaries, loops, conditional logic, and importing code across multiple files.
 
-The program allows multiple users to place bids anonymously and determines the highest bidder using core Python concepts such as functions, dictionaries, loops, and conditional logic.
-
-The project is structured into multiple files to demonstrate **basic modularization and imports**.
-
----
-
-## 📂 Project Structure
-
-day-9-silent-auction/
-│
-├── silent_bidding.py
-├── art.py
-└── README.md
-
-- **silent_bidding.py** – Main application logic  
-- **art.py** – ASCII art used for program display  
-- **README.md** – Project documentation  
-
----
-
-## 🧠 Concepts & Skills Demonstrated
-
-- Writing and calling functions with parameters and arguments  
-- Using dictionaries to store and process dynamic user data  
-- Loop control (`while`, `for`) for repeated user input  
-- Conditional logic to control program flow  
-- Variable scope and data passed into functions  
-- Separating code into multiple files using `import`  
-
----
-
-## ⚙️ How the Program Works
-
-1. The program prompts users to enter:
-   - Their name
-   - Their bid amount
-2. Each bid is stored in a dictionary where the key is the bidder name and the value is the bid amount.
-3. Users can continue adding bidders until they choose to stop.
-4. A function iterates through the collected bids to determine and display the highest bidder.
-
----
+▶️ How to Run
 
 ## ▶️ How to Run
 
-1. Clone the repository or download this folder.
-2. Ensure ` silent_bidding.py` and `art.py` are in the same directory.
-3. Run the program from the terminal:
+1. Make sure you have Python installed on your computer.
+2. Download or clone this repository.
+3. Make sure both files are in the same folder:
 
-```bash
-python  silent_bidding.py
+   silent_bidding.py
+
+   art.py
+   
+4. Open a terminal (or your preferred Python IDE).
+5. Navigate to the folder containing the file.
+6. Run the script using:
+ 
+   python silent_bidding.py
+
+7. Follow the on-screen instructions to enter bidders and bids.
+
+## 🧠 Concepts Practiced
+
+-Writing and using functions
+-Storing data in dictionaries
+-Using loops to collect multiple user inputs
+-Conditional statements (if, else)
+-Finding the highest value in a dictionary
+-Importing code from another file
+-Console-based user interaction
+-Using ASCII art for visual feedback in the terminal
